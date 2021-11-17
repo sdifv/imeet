@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="title">社交盲盒</view>
+
+  <view class="top_tip">免鉴权接口调用 免部署后台 高并发</view>
+
+  <view class="power">
+    <van-row gutter="10">
+      <van-col span="12">
+        <carte></carte>
+      </van-col>
+      <van-col span="12">
+        <carte></carte>
+      </van-col>
+    </van-row>
+  </view>
+
+  <view class="opr_btn">
+    <van-button type="primary" round block>换一组</van-button>
+  </view>
+
+  <view class="block">免责申明</view>
+
+  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>
+
+</view>

@@ -1,0 +1,18 @@
+/* pages/detail/detail.wxss */
+@import "../../components/carte/carte.wxss";
+
+.page {
+  margin: 15px;
+}
+
+.col_center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300rpx;
+}
+
+.opr_btn{
+  width: 50%;
+  margin: 80rpx auto;
+}

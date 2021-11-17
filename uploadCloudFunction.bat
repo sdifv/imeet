@@ -1,0 +1,1 @@
+"E:\APP\微信web开发者工具\cli.bat" cloud functions deploy --e ieat-cloud-6gkszgc52aefde24 --n quickstartFunctions --r --project "E:\Workplace\wxapp\imeet" --report_first --report

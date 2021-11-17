@@ -1,0 +1,24 @@
+<!--pages/detail/detail.wxml-->
+<view class="page">
+  <van-row gutter="15">
+    <van-col span="12">
+      <van-image round width="300rpx" height="300rpx" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+    </van-col>
+    <van-col span="12">
+      <view class="col_center">
+        <view class="info">
+          <view>年龄：22</view>
+          <view>籍贯：湖北</view>
+          <view>学校：西安交通大学</view>
+        </view>
+      </view>
+    </van-col>
+  </van-row>
+  <view class="block round">获取联系方式获取联系方式获取联系方式获取联系方式</view>
+  <view class="block round">获取联系方式获取联系方式获取联系方式获取联系方式获取联系方式获取联系方式获取联系方式获取联系方式</view>
+
+  <view class="opr_btn">
+    <van-button type="primary" round block icon="lock">解锁联系方式</van-button>
+  </view>
+
+</view>

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/form/form",
+    "pages/index/index",
+    "pages/getOpenId/index",
+    "pages/detail/detail",
+    "pages/boxSys/boxSys"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/box.png",
+        "iconPath": "images/box1.png",
+        "text": "盲盒广场"
+      },
+      {
+        "pagePath": "pages/boxSys/boxSys",
+        "iconPath": "images/menu1.png",
+        "selectedIconPath": "images/menu.png",
+        "text": "盲盒管理"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

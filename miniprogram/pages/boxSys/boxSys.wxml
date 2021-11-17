@@ -1,0 +1,22 @@
+<!--pages/boxSys/boxSys.wxml-->
+<view class="page">
+  <view class="avatar">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="nick_name">
+    <open-data type="userNickName" lang="zh_CN"></open-data>
+  </view>
+  <view class="block">
+    <van-cell-group>
+      <van-cell is-link title="发布盲盒" url="/pages/form/form"/>
+      <van-cell is-link title="我的盲盒" label="已发布/收藏/购买盲盒" />
+      <van-cell is-link title="交易记录" />
+    </van-cell-group>
+  </view>
+  <view class="block">
+    <van-cell-group>
+      <van-cell is-link title="关于项目" />
+      <van-cell is-link title="合作推广" />
+    </van-cell-group>
+  </view>
+</view>

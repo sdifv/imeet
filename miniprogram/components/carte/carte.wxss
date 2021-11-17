@@ -1,0 +1,26 @@
+/* components/carte/carte.wxss */
+.block {
+  margin-top: 20rpx;
+}
+
+.round {
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px #bdcee0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 15rpx;
+}
+
+.info{
+  font-size: small;
+  font-weight: lighter;
+}
+
+.info > view{
+  margin-bottom: 10rpx;
+}

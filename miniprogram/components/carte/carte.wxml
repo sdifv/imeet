@@ -1,0 +1,15 @@
+<!--components/carte/carte.wxml-->
+<view class="round">
+  <view class="center">
+    <van-image round width="200rpx" height="200rpx" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+  </view>
+  <view class="info">
+    <view>年龄：22</view>
+    <view>籍贯：湖北</view>
+    <view>学校：西安交通大学</view>
+  </view>
+  
+  <viwe class="center">
+    <van-button round type="info" size="small" bindtap="goDetail">查看详情</van-button>
+  </viwe>
+</view>

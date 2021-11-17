@@ -1,0 +1,52 @@
+<!--pages/form/form.wxml-->
+<view class="page">
+  <view class="head">
+    <image style="width: 100%;" mode="widthFix" src="../../images/head.png"></image>
+  </view>
+  <view class="block">
+    <van-row>
+      <van-col span="3">
+        <view class="input_label">年龄</view>
+      </van-col>
+      <van-col span="5">
+        <van-field model:value="{{ age }}" bind:change="onChange" />
+      </van-col>
+      <van-col span="3">
+        <view class="input_label">身高</view>
+      </van-col>
+      <van-col span="5">
+        <van-field model:value="{{ height }}" bind:change="onChange" />
+      </van-col>
+      <van-col span="3">
+        <view class="input_label">体重</view>
+      </van-col>
+      <van-col span="5">
+        <van-field model:value="{{ weight }}" bind:change="onChange" />
+      </van-col>
+    </van-row>
+    <!-- <van-cell-group>
+      <van-field label="年龄" model:value="{{ age }}" bind:change="onChange" />
+      <van-field label="身高" model:value="{{ height }}" bind:change="onChange" />
+      <van-field label="体重" model:value="{{ weight }}" bind:change="onChange" />
+      <van-cell title="性别" is-link arrow-direction="down" />
+      <van-action-sheet title="性别" show="{{ show }}" actions="{{ actions }}" bind:close="onClose"
+        bind:select="onSelect" />
+      <van-cell title="发布目的" is-link arrow-direction="down" />
+      <van-action-sheet title="发布目的" show="{{ show }}" actions="{{ actions }}" bind:close="onClose"
+        bind:select="onSelect" />
+    </van-cell-group> -->
+    <van-cell-group>
+      <van-field label="学校" model:value="{{ school }}" bind:change="onChange" />
+      <van-field autosize="{{inputSize}}" label="简介" model:value="{{ intro }}" type="textarea" placeholder="请输入留言" />
+    </van-cell-group>
+  </view>
+
+  <view class="opr_btn">
+    <view style="width: 30%;">
+      <van-button round block type="primary">提交</van-button>
+    </view>
+    <view style="width: 30%;">
+      <van-button round block type="warning">清空</van-button>
+    </view>
+  </view>
+</view>
